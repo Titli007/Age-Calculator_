@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'my_font1';
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'my_font2';
+    src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'my_font3';
+    src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'my_font4';
+    src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: 'my_font5';
+    src: url(./assets/fonts/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: 'my_font6';
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+body{
+    background-color: hsl(0, 0%, 86%);
+}
+.full{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.for-img{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 100px 10px;
+}
+.top{
+    display: flex;
+    margin: 50px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}
+.bottom{
+    font-size: 53px;
+    font-family: 'my_font4';
+    margin: 30px 30px 30px 50px;
+}
+#c-y, #c-m, #c-d{
+    color: hsl(259, 100%, 65%);
+}
+#day, #month, #year{
+    font-family: "my_font6";
+    font-size: 15px;
+}
+#dd, #mm, #yy{
+    font-family: "my_font1";
+    color: hsl(0, 1%, 44%);
+    border: .4px solid hsl(0, 1%, 44%);
+    margin-right: 20px;
+    font-size: 22px;
+    padding: 5px;
+}
+#btn{
+    position: relative;
+    top: 90px;
+    border-radius: 50%;
+    height: 90px;
+    padding: 20px;
+    background-color: hsl(259, 100%, 65%);
+    border: 0;
+}
+#btn:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: hsl(259, 67%, 78%);
+    transform: scale(1.2);
+}
