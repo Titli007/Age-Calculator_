@@ -16,7 +16,7 @@ document.getElementById("btn").onclick = () => {
     month= document.getElementById("mm").value;
     year= document.getElementById("yy").value;
     console.log(date, month, year);
-    if(month>12 || month<1 || year<0 || year>y || day>31 || day<0){
+    if(month>12 || month<1 || year<0 || year>y || date>31 || date<0){
         window.alert("invalid input");
     }
     else if(month>m && date<d){
